@@ -1,0 +1,35 @@
+# OS/自動生成ファイル
+.DS_Store
+Thumbs.db
+
+# IDE/エディタ自動生成ファイル
+.idea/
+.vscode/
+.cursor/
+
+# 環境変数ファイル
+.env
+.env.local
+
+# Node.js
+node_modules/
+
+# PHP Composer
+vendor/
+
+# ビルド/配布
+build/
+dist/
+
+# Sassキャッシュ
+.sass-cache
+/.cache/*
+!/.cache/.gitkeep
+
+# ログ/一時ファイル
+/logs/
+/tmp/
+
+# WordPress
+wp-config.php
+wp-content/uploads/
