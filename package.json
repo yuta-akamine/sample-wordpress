@@ -3,10 +3,20 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx wp-env start",
+    "stop": "npx wp-env stop",
+    "destroy": "npx wp-env destroy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "engines": {
+    "node": "18.20.8",
+    "npm": ">=8.5.0"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^10.36.0"
+  }
 }
