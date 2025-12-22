@@ -1,8 +1,8 @@
 root = true # ルートより上位の.editorconfigは無視
 
 [*.php]
-indent_style = space # インデントスタイルを指定
-indent_size = 2 # インデントに使うスペースの数
+indent_style = tab # インデントスタイルを指定
+indent_size = 4 # インデントに使うスペースの数
 end_of_line = lf # 行末の形式を指定 lfかcrlfかcr
 charset = utf-8 # 文字コードを指定
 trim_trailing_whitespace = true # 行末の不要な空白を削除
