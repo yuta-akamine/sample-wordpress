@@ -22,7 +22,8 @@ if ( ! defined( 'MY_THEME_URI' ) ) {
  * 2. 構成ファイルの読み込み
  */
 $theme_includes = [
-  'includes/setup.php',    // テーマの基本設定
+  'includes/setup.php', // テーマの基本設定
+  'includes/hooks.php', // アクション・フィルターフック
 ];
 
 foreach ( $theme_includes as $file ) {
