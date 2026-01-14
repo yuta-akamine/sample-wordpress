@@ -33,14 +33,17 @@ npm install
 ```sh
 npm run start
 ```
+- 実行後、自動で以下開発サイトが立ち上がる
+- コード変更を検知しブラウザホットリロード
+
+## 画面表示確認
+- 開発サイト(BrowserSync対応): http://localhost:3000 🔗
+- 開発サイト(BrowserSync未対応): http://localhost:8888 🔗
 
 ## オリジナルテーマへの切り替え（初回）
 ```sh
 npx wp-env run cli wp theme activate sample-wordpress
 ```
-
-## 画面表示確認
-- 開発サイト: http://localhost:8888 🔗
 
 ## WP 停止コマンド
 ```sh
