@@ -24,6 +24,7 @@ if ( ! defined( 'MY_THEME_URI' ) ) {
 $theme_includes = [
   'includes/setup.php', // テーマの基本設定
   'includes/hooks.php', // アクション・フィルターフック
+  'includes/enqueue.php', // CSSやJSなど外部ファイルの読み込み
 ];
 
 foreach ( $theme_includes as $file ) {
